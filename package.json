@@ -33,21 +33,21 @@
 		"strip-json-comments": "^3.1.1",
 		"typescript": "^4.0.0"
 	},
-  "keywords": [
-    "threeshake",
-    "three",
-    "three.js",
-    "treeshakable",
-    "tree shakable",
-    "tree shaking",
-    "tree shake",
-    "treeshake",
-    "examples",
-    "folder",
-    "resolve",
-    "migrate",
-    "types"
-  ],
+	"keywords": [
+		"threeshake",
+		"three",
+		"three.js",
+		"treeshakable",
+		"tree shakable",
+		"tree shaking",
+		"tree shake",
+		"treeshake",
+		"examples",
+		"folder",
+		"resolve",
+		"migrate",
+		"types"
+	],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/vatro/threeshake.git"
