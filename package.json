@@ -1,0 +1,60 @@
+{
+	"name": "threeshake",
+	"version": "1.0.0",
+	"author": "Vatroslav Vrbanic | vatro",
+	"description": "make three/examples folder contents treeshakable (incl. typings), migrate @types/three into src",
+	"main": "threeshake.js",
+	"bin": "threeshake.js",
+	"type": "module",
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"scripts": {
+		"test-folder-init": "cd test-folder && node ../threeshake.js -init",
+		"test-folder-threeshake": "cd test-folder && node ../threeshake.js",
+		"test-deftypes": "cd test-folder && threeshake -testdeftypes",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.13.14",
+		"@babel/eslint-parser": "^7.13.14",
+		"@babel/plugin-proposal-class-properties": "^7.13.0",
+		"acorn": "^8.1.0",
+		"eslint": "^7.23.0",
+		"eslint-config-standard": "^16.0.2",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^4.3.1",
+		"extract-zip": "^2.0.1",
+		"glob": "^7.1.6",
+		"inquirer": "^8.0.0",
+		"ora": "^5.4.0",
+		"rimraf": "^3.0.2",
+		"strip-json-comments": "^3.1.1",
+		"typescript": "^4.0.0"
+	},
+  "keywords": [
+    "threeshake",
+    "three",
+    "three.js",
+    "treeshakable",
+    "tree shakable",
+    "tree shaking",
+    "tree shake",
+    "treeshake",
+    "examples",
+    "folder",
+    "resolve",
+    "migrate",
+    "types"
+  ],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vatro/threeshake.git"
+	},
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/vatro/threeshake/issues"
+	},
+	"homepage": "https://github.com/vatro/threeshake#readme"
+}

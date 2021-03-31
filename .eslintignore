@@ -1,0 +1,2 @@
+# ignore all subfolders, lint only files in project root 
+*/**

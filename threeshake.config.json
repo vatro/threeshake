@@ -1,0 +1,35 @@
+{
+    /**
+    * thee.js version as a whole number, e.g for three.js 0.126.1 just 👉 126 👈'
+    */
+    //"three": 126,
+    
+    /**
+     * Destination folder for original three.js-folders
+     */
+    "original": "./original",
+
+    /**
+     * Destination folder for the new version of three.js-'src'-folder.
+     * The original three.js-'src'-folder lives untouched in the specified "original" folder.
+     */
+    "dest": ".",
+
+    /**
+     * "typings"
+     * 'true' : threeshake will install (if needed / available) and process three.js typings.
+     * 'false' : no typings will be installed or processed.
+    */
+    "typings": true,
+
+    /**
+    * "add"
+    * Modules to add (from three.js "examples" folder).
+    */
+    "add": [
+        //"loaders/GLTFLoader.js",
+        //"controls/OrbitControls.js"
+    ],
+
+    "packageWarnings": true
+}

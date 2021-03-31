@@ -1,0 +1,9 @@
+{
+    "add": [
+        "loaders/GLTFLoader.js",
+        "controls/OrbitControls.js",
+        "webxr/XRHandModelFactory.js",
+        "webxr/XRControllerModelFactory.js",
+        "helpers/RectAreaLightHelper.js"
+    ]
+}

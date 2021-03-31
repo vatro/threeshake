@@ -1,0 +1,16 @@
+{
+    "trailingComma": "none",
+    "tabWidth": 4,
+    "useTabs": true,
+    "semi": false,
+    "endOfLine": "crlf",
+    "singleQuote": true,
+    "jsxBracketSameLine": true,
+    "printWidth": 140,
+    
+
+    "svelteSortOrder" : "scripts-styles-markup",
+    "svelteStrictMode": false,
+    "svelteBracketNewLine": false,
+    "svelteAllowShorthand": true
+}
