@@ -892,7 +892,9 @@ export default class Shaker {
 								process_files()
 							},
 							(selected_three_has_deftyped_types || selected_three_has_types_included) && current_config.typings,
-							selected_three_has_types_included
+							selected_three_has_types_included,
+							src_folder_in_new,
+							jsm_folder_in_original
 						)
 
 						fp.doit()

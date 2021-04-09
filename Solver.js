@@ -17,13 +17,15 @@ export default class Solver {
 		curves_exports_map,
 		callback,
 		process_dts,
-		selected_three_has_types_included
+		selected_three_has_types_included,
+		src_folder_in_new,
+		jsm_folder_in_original
 	) {
 		// the directory `npx threeshake` was executed from is considered to be the 'project root'
 		const project_root_abs = process.cwd()
 
-		const src_new = join(project_root_abs, 'src/')
-		const jsm_path = join(project_root_abs, 'original/examples/jsm/')
+		const src_new = join(src_folder_in_new, '/')
+		const jsm_path = join(jsm_folder_in_original, '/')
 
 		let imports = []
 		let rest = []
