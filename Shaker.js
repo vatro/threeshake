@@ -1006,7 +1006,7 @@ export default class Shaker {
 				if (parse(solved.js).dir.indexOf('libs') < 0) {
 					const left = solved.name
 					const right = relative(src_folder_in_new, solved.js).replace(/\\/g, '/')
-					str += `export { ${left} } from "./${right}"\n`
+					str += `export { ${left} } from './${right}'\n`
 				}
 			}
 
@@ -1043,7 +1043,7 @@ export default class Shaker {
 				// don't export libs
 				if (parse(solved.js).dir.indexOf('libs') < 0) {
 					const right = relative(src_folder_in_new, solved.js).replace(/\\/g, '/').replace('.js', '')
-					str += `export * from "./${right}"\n`
+					str += `export * from './${right}'\n`
 				}
 			}
 
