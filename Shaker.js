@@ -1032,7 +1032,7 @@ export default class Shaker {
 				// no Three.d.ts / no types
 				if (err.code === 'ENOENT') {
 					console.log(err)
-					debugger
+					//debugger
 					return ''
 				}
 			}
