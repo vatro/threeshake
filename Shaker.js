@@ -190,7 +190,6 @@ export default class Shaker {
 			jsm_folder_in_original = join(original_abs, 'examples/jsm')
 		}
 
-		//  TODO  implement.
 		async function get_current_state() {
 			const s = await readFile(state_path_abs, 'utf8')
 			current_state = JSON.parse(stripJsonComments(s))
@@ -1032,7 +1031,6 @@ export default class Shaker {
 				// no Three.d.ts / no types
 				if (err.code === 'ENOENT') {
 					console.log(err)
-					//debugger
 					return ''
 				}
 			}

@@ -85,9 +85,6 @@ export default class Solver {
 					}` // no whitespace if no bracket
 				}
 
-				// d.ts files with single quotes (@types/three style)
-				// see three 126 : three.js now also using single quotes
-				// skip brackets if e.g. import * as foo from "..."
 				imp_decl_str += `${sb ? '' : '}'} from '${p}'${os.EOL}`
 
 				sb = false
