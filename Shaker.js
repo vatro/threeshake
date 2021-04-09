@@ -763,7 +763,7 @@ export default class Shaker {
 					}).catch((err) => {
 						spinner.warn(
 							chalk.yellow(
-								`${pfx} NOT SEVERE ERROR : Couldn't access directory found in threeshake.state.config : it was probably deleted manually, will be recreated during the next step if needed.`
+								`${pfx} NOT SEVERE ERROR : Couldn't delete directory found in threeshake.state.config : it was probably deleted manually, will be recreated during the next step if needed.`
 							)
 						)
 						console.log(err)
